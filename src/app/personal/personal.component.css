@@ -1,0 +1,17 @@
+div{
+    color: red;
+}
+div.first{
+    font: italic bold 12px/30px Georgia, serif;
+}
+img{
+    width: 43%;
+    height: 43%;
+}
+.love{
+    text-align: center;
+    text-justify: auto;
+}
+.border{
+    background-color: burlywood;
+}

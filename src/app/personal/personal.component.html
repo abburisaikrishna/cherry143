@@ -1,0 +1,35 @@
+<span class="love col-md-6" style="color: red;margin-left: 300px;"> CHERRY/GUMMA I LOAVE YOU SO MUCH FOREVER FOR THE REST OF MY LIFE
+</span>
+<div class="border">
+<div *ngFor = "let title of fetchData; index as i"  >
+  
+<span class="">
+   <span  class="love col-md-6" style="color: rgb(0, 183, 255);">{{title.title}}</span>
+<span  class="love col-md-6" style="color: blue;"><i class="fa fa-heart" aria-hidden="true"></i> {{title.love}} </span>
+<span  class="love col-md-6" style="color: rgb(0, 183, 255);">{{title.loveone}}</span>
+<span  class="love col-md-6" style="color: #ff000081;">{{title.loveTWO}}</span>
+<span  class="love col-md-6" style="color: white;">{{title.loveThree}}</span>
+<span  class="love col-md-6" style="color: yellow;">{{title.loveFive}}</span>
+<span  class="love col-md-6" style="color: wheat;">{{title.lovesix}}</span>
+<span  class="love col-md-6" style="color: yellowgreen;">{{title.loveseven}}</span>
+</span>
+
+<div class="row" *ngIf="i==7">
+   <div class="col-md-4">
+      <!-- <span class="col-md-6"><img  src="../../assets/sai.jpg" alt=""></span> -->
+   </div>
+   <div class="col-md-4">
+   EVER TIME I MISS YOU A LOT
+   </div>
+   <div class="col-md-4">
+   I LOVE YOU SO MUCH CHERRY
+   <div>
+      NUVU ANTE PICCI CHERRY NAKU, NUVU NATO EPPUDU KABURLU CHEPTAV CHERRY <i class="fa fa-heart" aria-hidden="true"></i>
+   </div>
+   </div>
+</div>
+</div>
+</div>
+
+ 
+<router-outlet></router-outlet>
